@@ -43,7 +43,7 @@ export default {
 
 <style lang="sass" scoped>
 .item
-    max-width: 370px
+    width: calc(1170px / 3 - 26px)
     margin-bottom: 16px
     @media (max-width: 1200px)
       max-width: 340px 
@@ -52,7 +52,7 @@ export default {
     @media (max-width: 768px)
       max-width: 210px 
     @media (max-width: 576px)
-      max-width: calc(100vw / 2 - 30px)
+      max-width: calc(100vw / 2 - 20px)
 img
     width: 100%
     object-fit: contain
